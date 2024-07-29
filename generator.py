@@ -54,6 +54,6 @@ def generate_test_data():
 
 def iteration(iterations):
     for i in range(0,iterations):
-        print(generate_test_data(),end="\n")
+        print(generate_test_data(),end=",\n")
 
 iteration(iterations = 10)
